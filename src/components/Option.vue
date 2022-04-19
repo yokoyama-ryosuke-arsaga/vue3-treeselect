@@ -82,7 +82,7 @@
           return (
             <div class="vue-treeselect__option-arrow-container" onMousedown={this.handleMouseDownOnArrow}>
               <transition name="vue-treeselect__option-arrow--prepare" appear={true}>
-                <ArrowIcon class={arrowClass} />
+                <ArrowIcon class={arrowClass} /><ArrowIcon class={arrowClass} />
               </transition>
             </div>
           )
